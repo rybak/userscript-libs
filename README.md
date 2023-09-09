@@ -14,7 +14,8 @@ Add a [`@require` entry][vmRequire] to metadata of the userscript:
 // @require https://github.com/rybak/userscript-libs/raw/<commit>/waitForElement.js
 ```
 
-Replace the `<commit>` placeholder with the commit that you want to use.
+Replace the `<commit>` placeholder with the hash of the [commit][GitHubCommits]
+that you want to use.
 
 If you want to publish the userscript on Greasy Fork, you'll have to follow
 their [policy on external scripts][GreasyForkPolicy].  This can be done using
@@ -48,6 +49,7 @@ waitForElement('#targetId').then(target => {
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Userscript
 [vmRequire]: https://violentmonkey.github.io/api/metadata-block/#require
+[GitHubCommits]: https://github.com/rybak/userscript-libs/commits/main
 [GreasyForkPolicy]: https://greasyfork.org/en/help/external-scripts
 [JSDelivr]: https://www.jsdelivr.com/?docs=gh
 [GreasyForkCDNs]: https://greasyfork.org/en/help/cdns
