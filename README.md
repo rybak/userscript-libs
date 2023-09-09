@@ -8,7 +8,7 @@ These are libraries for use in [userscripts][Wikipedia] by developers.
 Using `waitForElement.js` as an example – replace the filename in instructions
 with the library you would like to use.
 
-Add a `@require` entry to metadata of the userscript:
+Add a [`@require` entry][vmRequire] to metadata of the userscript:
 
 ```
 // @require https://github.com/rybak/userscript-libs/raw/<commit>/waitForElement.js
@@ -47,6 +47,7 @@ waitForElement('#targetId').then(target => {
 ```
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Userscript
+[vmRequire]: https://violentmonkey.github.io/api/metadata-block/#require
 [GreasyForkPolicy]: https://greasyfork.org/en/help/external-scripts
 [JSDelivr]: https://www.jsdelivr.com/?docs=gh
 [GreasyForkCDNs]: https://greasyfork.org/en/help/cdns
